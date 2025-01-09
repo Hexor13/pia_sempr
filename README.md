@@ -4,27 +4,24 @@
 ## How to Run
 Follow the steps below to compile and run the project on your local machine.
 
-1. Clone or Download the repository:
+1. Clone the repository:
 
-2. Clone the repository with Git or download it as a ZIP file from GitHub.
-Navigate to the project folder:
+2. Open a terminal and navigate to the folder where the project is located.
 
-3. Open a terminal (or command prompt) and navigate to the folder where the project is located.
-
-4. Run CMake to generate build files:
+3. Run CMake to generate build files:
 
 - Use the following command to generate the build configuration using CMake:
 ```
 cmake -B build
 ```
-5. Build the project:
+4. Build the project:
 
 - After the CMake configuration is complete, use the following command to build the project:
 
 ```
 cmake --build build
 ```
-6. Run the executable:
+5. Run the executable:
 
 - Once the project is built, you can run the executable from the build directory:
 
